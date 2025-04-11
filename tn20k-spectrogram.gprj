@@ -1,0 +1,25 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW2AR-18C" pn="GW2AR-LV18QN88PC8/I7">gw2ar18c-011</Device>
+    <FileList>
+        <File path="src/TOP.v" type="file.verilog" enable="1"/>
+        <File path="src/VGAMod2.v" type="file.verilog" enable="1"/>
+        <File path="src/alternate_sw.v" type="file.verilog" enable="1"/>
+        <File path="src/char_rom.v" type="file.verilog" enable="1"/>
+        <File path="src/cic_i2s_mic.v" type="file.verilog" enable="1"/>
+        <File path="src/cic_pdm_mic.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_rpll/gowin_rpll_27M_120M.v" type="file.verilog" enable="1"/>
+        <File path="src/log2_17_5.v" type="file.verilog" enable="1"/>
+        <File path="src/python/nco_4ch.v" type="file.verilog" enable="1"/>
+        <File path="src/python/nco_rom_4ch_fc2400_fs11718.v" type="file.verilog" enable="1"/>
+        <File path="src/python/nco_rom_4ch_fc2400_fs5859.v" type="file.verilog" enable="1"/>
+        <File path="src/python/nco_rom_4ch_fc4800_fs11718.v" type="file.verilog" enable="1"/>
+        <File path="src/python/nco_rom_4ch_log4943_fs11718.v" type="file.verilog" enable="1"/>
+        <File path="src/tn20k-spectrogram.cst" type="file.cst" enable="1"/>
+        <File path="src/tn20k-spectrogram.sdc" type="file.sdc" enable="1"/>
+        <File path="src/tn20k-spectrogram.rao" type="file.gao" enable="1"/>
+    </FileList>
+</Project>
