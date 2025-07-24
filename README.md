@@ -1,6 +1,7 @@
 
 # tangnano20k-spectrogram
 Realtime spectrogram on tang nano 20k
+developed on Gowin FPGA designer V1.9.9(64bit) build 69780
 
 ## BOM
 tang nano 20k with header [https://ja.aliexpress.com/item/1005005581148230.html]
